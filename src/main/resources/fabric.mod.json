@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "spellbladenext",
+	"version": "${version}",
+	"name": "Spellblade Sans",
+	"description": "Assorted Magical Weaponry! (But not too much)",
+	"authors": [
+		"cleannrooster"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/modid/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.spellbladenext.Spellblades"
+		],
+		"client": [
+			"com.spellbladenext.SpellbladesClient"
+		]
+	},
+	"mixins": [
+		"spellbladenext.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"spell_engine": ">=0.13.0",
+		"extraspellattributes": ">=1.1.0",
+		"java": ">=17",
+		"fabric-api": "*",
+		"azurelib": ">=1.0.29"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
