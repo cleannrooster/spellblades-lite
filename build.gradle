@@ -26,7 +26,7 @@ repositories {
 			includeGroup 'maven.modrinth'
 		}
 	}
-	maven {url 'https://libs.azuredoom.com:4443/mods'}
+	maven {url 'https://maven.azuredoom.com/mods'}
 	maven { url 'https://maven.kosmx.dev/' }
 	maven { url 'https://maven.shedaniel.me/' }
 	maven { url 'https://jitpack.io' }
